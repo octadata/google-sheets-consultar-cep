@@ -10,7 +10,7 @@
 
 function CONSULTAR_CEP(cep, itens) {
   // Remove o traço, se existir
-  cep = String(cep).replace("-", "");
+  cep = String(cep)?.replace("-", "");
 
   // Adiciona zeros à esquerda se o CEP tiver menos de 8 dígitos
   if (cep.length < 8) {
