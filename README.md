@@ -10,7 +10,7 @@ A função foi desenvolvida no **Google Apps Script** com a API do **ViaCEP.com.
 
 # Implementação do script
 
-Acesse sua planilha, clique em **Extensões** > **Apps Script**. Renomeie o seu projeto, cole todo o código do script **[consultar_cep.gs](https://github.com/octadata/google-sheets-consultar-cep/consultar_cep.gs)** dentro do seu projeto no Google Apps Script, salve e execute para conceder as permissões necessárias.
+Acesse sua planilha, clique em **Extensões** > **Apps Script**. Renomeie o seu projeto, cole todo o código do script **[consultar_cep.gs](https://github.com/octadata/google-sheets-consultar-cep/blob/main/consultar_cep.gs)** dentro do seu projeto no Google Apps Script, salve e execute para conceder as permissões necessárias.
 
 # Parâmetros da função
 
@@ -41,8 +41,7 @@ Onde A2 representa o valor 29100010 (válido para formato numérico ou de texto)
 5. Caso um parâmetro não seja encontrado na resposta, o mesmo constará como "N/A" no retorno final
 6. Não sabemos se é uma falha do Apps Script ou recusas de conexão do ViaCEP, mas comumente algumas requisições não são realizadas com sucesso. Por isso, esse script realiza 10 tentativas de consultar um CEP, até uma resposta HTTP/200 seja emitida [exceto em caso de erro declarado na resposta da API]
 
-![code-consultar-cep-gas](https://github.com/user-attachments/assets/dfb2443f-4da8-482e-9197-3b6ce0bfd477)
-
+![code-consultar-cep-gas](https://github.com/user-attachments/assets/f46328c2-35d6-40be-9817-a402e745b081)
 
 # Sobre a Octadata
 
