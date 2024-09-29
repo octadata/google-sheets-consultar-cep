@@ -20,10 +20,12 @@ Os parâmetros são opcionais, mas podem ser:
 - logradouro (que é o nome da Rua, Avenida, etc)
 - complemento (por exemplo: lado par)
 - bairro
+- localidade
 - uf (estado abreviado: SP, RJ, ES)
 - estado (nome do estado por extenso)
 - regiao
 - ibge
+- gia
 - ddd
 - siafi
 
